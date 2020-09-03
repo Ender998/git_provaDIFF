@@ -1,0 +1,9 @@
+---
+- name: il play
+  hosts: nobody
+  
+  tasks:
+    - name: first task
+      module: module1
+    - name: second task
+      module: module2  
